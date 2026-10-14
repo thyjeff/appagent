@@ -1,0 +1,30 @@
+{
+  "name": "focuspilot-mcp-server",
+  "version": "2.0.0",
+  "description": "Model Context Protocol (MCP) Server & Web Portal for FocusPilot Student Companion",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "focuspilot",
+    "student-assistant",
+    "claude",
+    "cursor",
+    "hermes",
+    "vercel"
+  ],
+  "author": "FocusPilot Team",
+  "license": "MIT"
+}
